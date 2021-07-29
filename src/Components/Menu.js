@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
-import Pinterest from '@material-ui/icons/Pinterest';
+
 
 function Menu({menuItem}) {
     return (
@@ -14,13 +14,8 @@ function Menu({menuItem}) {
                                 <img src={item.image} alt=""/>
                                 <ul>
                                     <li>
-                                        <a href={item.link1}>
+                                        <a href={item.link1} target="_blank" rel="noreferrer">
                                             <GitHub />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={item.link2}>
-                                            <Pinterest />
                                         </a>
                                     </li>
                                 </ul>

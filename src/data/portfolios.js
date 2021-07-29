@@ -1,73 +1,41 @@
-import css1 from '../img/portImages/cv_css.png';
-import css2 from '../img/portImages/ms.png';
-import react1 from '../img/portImages/react_styled.png';
-import img2 from '../img/portImages/maya-4.jpg';
-import img3 from '../img/portImages/maya-3.jpg';
+import web from "../img/portImages/web.jpg";
+import stock from "../img/portImages/stock.jpg";
+import ss from "../img/portImages/sematic_segmentation.jpg";
+import dag from "../img/portImages/dag.png";
 
 const portfolios = [
-    {
-        id: 1,
-        category: 'CSS',
-        image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
-    },
-    {
-        id: 2,
-        category: 'Python',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 3,
-        category: 'Javascript',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 4,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 6,
-        category: 'React JS',
-        image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
-    },
-    {
-        id: 7,
-        category: 'CSS',
-        image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
-]
+  {
+    id: 1,
+    category: "Data",
+    image: ss,
+    link1: "https://github.com/SaiKiranCVN/semantic-segmentation",
+    title: "Sematic Segmentation",
+    text: "Multi-Scale Image Segmentation.",
+  },
+  {
+    id: 2,
+    category: "SDE",
+    image: stock,
+    link1: "https://github.com/SaiKiranCVN/Virtual-Stock-Application",
+    title: "Stock Trading App",
+    text: "Trading App with fake data.",
+  },
+  {
+    id: 3,
+    category: "SDE",
+    image: web,
+    link1: "https://www.google.com",
+    title: "Portfolio Website",
+    text: "Created using React.",
+  },
+  {
+    id: 4,
+    category: "Daata",
+    image: dag,
+    link1: "https://github.com/SaiKiranCVN/Data-Pipeleines-with-Airflow",
+    title: "Data Pipeline - Sparkify",
+    text: "Data Pipeline using Airflow.",
+  },
+];
 
 export default portfolios;

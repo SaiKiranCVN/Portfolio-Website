@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
+import PowerIcon from '@material-ui/icons/Power';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -12,21 +12,21 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hi, I'm <span>Sai Kiran</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                    I am an aspiring <b>Data Engineer/Scientist, 
+                    Software Development Engineer, and Cloud(DevOps/SRE) </b> 
+                     enthusiast actively fetching Full-time(Fresh Grad) positions.
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
-                    </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/SaiKiranCVN" target="_blank" rel="noreferrer" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
-                        <YoutubeIcon />
+                    <a href="https://www.linkedin.com/in/saikirancvn/" target="_blank" rel="noreferrer" className="icon i-linkedin">
+                        <LinkedInIcon />
+                    </a>
+                    <a href="https://leetcode.com/saikirancvn/" target="_blank" rel="noreferrer" className="icon i-leetcode">
+                        <PowerIcon />
                     </a>
                 </div>
             </div>
@@ -71,10 +71,10 @@ const HomePageStyled = styled.header`
                 }
             }
 
-            .i-youtube{
+            .i-linkedin{
                 &:hover{
-                    border: 2px solid red;
-                    color: red;
+                    border: 2px solid #0077b5;
+                    color: #0077b5;
                 }
             }
             .i-github{

@@ -7,14 +7,14 @@ import ReviewItem from '../Components/ReviewItem';
 function ReviewsSetion() {
     return (
         <ReviewsStyled>
-            <Title title={'Reviews'} span={'Reviews'} />
+            <Title title={'Quotes'} span={'Thoughts'} />
             <InnerLayout>
                 <div className="reviews">
                     <ReviewItem 
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas?'} 
+                        text={'“The way I see it, if you want the rainbow, you gotta put up with the rain.” — Dolly Parton'} 
                     />
                     <ReviewItem 
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas? Dos ir por culpa ad itaque quas!'} 
+                        text={'“People who are really serious about software should make their own hardware.” — Alan Kay'} 
                     />
                     
                 </div>

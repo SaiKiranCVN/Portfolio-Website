@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -105,12 +104,31 @@ h1{
     span{
         font-size: 4rem;
         @media screen and (max-width: 502px){
-            font-size: 3rem
+            font-size: 2.7rem
         }
+        @media screen and (max-width: 470px){
+            font-size: 2.5rem
+        }
+        @media screen and (max-width: 420px){
+            font-size: 2.3rem
+        }
+        @media screen and (max-width: 380px){
+            font-size: 2rem
+        }
+
     }
     @media screen and (max-width: 502px){
-        font-size: 3rem
+        font-size: 2.7rem
     }
+    @media screen and (max-width: 470px){
+            font-size: 2.5rem
+        }
+    @media screen and (max-width: 420px){
+            font-size: 2.3rem
+        }
+    @media screen and (max-width: 380px){
+            font-size: 2rem
+        }
 }
 
 span{

@@ -33,6 +33,14 @@ const TitleStyled = styled.div`
             background-color: var(--background-light-color-2);
             border-radius: 15px;
             left: 0;
+            @media screen and (max-width: 496px){
+                margin-bottom: 1rem;
+                top: 70%;
+            }
+            @media screen and (max-width: 370px){
+                margin-bottom: 1rem;
+                top: 70%;
+            }
         }
         &::after{
             content: "";
@@ -43,6 +51,14 @@ const TitleStyled = styled.div`
             background-color: var(--primary-color);
             border-radius: 15px;
             left: 0;
+            @media screen and (max-width: 496px){
+                margin-bottom: 1rem;
+                top: 70%;
+            }
+            @media screen and (max-width: 370px){
+                margin-bottom: 1rem;
+                top:70%;
+            }
         }
         span{
             font-weight: 900;
@@ -60,6 +76,7 @@ const TitleStyled = styled.div`
             }
             @media screen and (max-width: 370px){
                 font-size: 2rem;
+                top:55%;
             }
         }
     }

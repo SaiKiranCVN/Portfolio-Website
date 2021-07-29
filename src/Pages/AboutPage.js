@@ -10,7 +10,7 @@ function AboutPage() {
     return (
         <MainLayout>
             <AboutStyled >
-                <Title title={'About Me'} span={'About Me'} />
+                <Title title={'About Me'} span={'I Believe'} />
                 <ImageSection />
                 <ServicesSection />
                 <ReviewsSection />
