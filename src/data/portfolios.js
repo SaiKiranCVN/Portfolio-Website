@@ -2,6 +2,8 @@ import web from "../img/portImages/web.jpg";
 import stock from "../img/portImages/stock.jpg";
 import ss from "../img/portImages/sematic_segmentation.jpg";
 import dag from "../img/portImages/dag.png";
+import crwn from "../img/portImages/crwn.jpg";
+import mon from "../img/portImages/mon.jpg";
 
 const portfolios = [
   {
@@ -30,11 +32,27 @@ const portfolios = [
   },
   {
     id: 4,
-    category: "Daata",
+    category: "Data",
     image: dag,
     link1: "https://github.com/SaiKiranCVN/Data-Pipeleines-with-Airflow",
     title: "Data Pipeline - Sparkify",
     text: "Data Pipeline using Airflow.",
+  },
+  {
+    id: 5,
+    category: "SDE",
+    image: crwn,
+    link1: "https://github.com/SaiKiranCVN/E-Commerce-Clothing",
+    title: "Ecommerce Website",
+    text: "Clothing Web App in React.",
+  },
+  {
+    id: 6,
+    category: "SDE",
+    image: mon,
+    link1: "https://github.com/SaiKiranCVN/Monster-Roledex",
+    title: "Monster Website",
+    text: "Simple Web App in React.",
   },
 ];
 
