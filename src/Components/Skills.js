@@ -10,23 +10,29 @@ function Skills() {
       <Title title={"My Skills"} span={"proficiencies"} />
       <InnerLayout>
         <div className='skills'>
-          <ProgressBar title={"PYTHON"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"PYTHON"} width={"90%"} text={"90%"} />
           <ProgressBar title={"SQL"} width={"60%"} text={"60%"} />
-          <ProgressBar title={"PySpark"} width={"70%"} text={"70%"} />
-          <ProgressBar title={"Pytorch"} width={"75%"} text={"75%"} />
           <ProgressBar
-            title={"AWS(S3,EC2,EMR,RDS,Redshift,Kenesis,Comprehend)"}
+            title={"PySpark,Pytorch,Airflow"}
+            width={"50%"}
+            text={"50%"}
+          />
+          <ProgressBar
+            title={"AWS(S3,EC2,EMR,RDS,Redshift,Kinesis,Comprehend)"}
             width={"70%"}
             text={"70%"}
           />
-          <ProgressBar title={"React JS"} width={"75%"} text={"75%"} />
-          <ProgressBar title={"Django"} width={"40%"} text={"40%"} />
+          <ProgressBar title={"React,GraphQL"} width={"75%"} text={"75%"} />
           <ProgressBar
-            title={"Docker,Kubernetes,Terraform"}
+            title={"Docker,Kubernetes,Terraform,Django,Firebase"}
             width={"40%"}
             text={"40%"}
           />
-          <ProgressBar title={"Terraform"} width={"70%"} text={"70%"} />
+          <ProgressBar
+            title={"HTML/CSS,C,C++,Java,MongoDB,Cassandra"}
+            width={"35%"}
+            text={"35%"}
+          />
         </div>
       </InnerLayout>
     </SkillsStyled>

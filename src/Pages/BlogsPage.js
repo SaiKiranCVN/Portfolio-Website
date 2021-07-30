@@ -13,12 +13,12 @@ function BlogsPage() {
           {blogs.map((blog) => {
             return (
               <div key={blog.id} className={"blog-item"}>
-                <div className='image'>
-                  <img src={blog.image} alt='' />
-                </div>
-                <div className='title'>
-                  <a href={blog.link}>{blog.title}</a>
-                </div>
+                <a href={blog.link} target='_blank' rel='noreferrer'>
+                  <div className='image'>
+                    <img src={blog.image} alt='' />
+                  </div>
+                  <div className='title'>{blog.title}</div>
+                </a>
               </div>
             );
           })}

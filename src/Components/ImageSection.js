@@ -17,7 +17,17 @@ function ImageSection() {
           Being a good developer is not just obtaining the knowledge of one
           domain, rather a fundational knowledge of all domains, with
           concentraion in one
-          <b> T-shaped Skills</b>.
+          <b>
+            {" "}
+            <a
+              href='https://en.wikipedia.org/wiki/T-shaped_skills'
+              target='_blank'
+              rel='noreferrer'
+            >
+              T-shaped Skills
+            </a>
+          </b>
+          .
         </p>
         <div className='about-info'>
           <div className='info-title'>
@@ -39,7 +49,10 @@ function ImageSection() {
         </div>
         <PrimaryButton
           title={"Download Resume"}
-          href={"https://www.google.com"}
+          href={
+            "https://drive.google.com/file/d/1qYFRRtXCi97mRMe-eiWr9toAEOBt7Lq2/view?usp=sharing"
+          }
+          download
         />
       </div>
     </ImageSectionStyled>
