@@ -17,7 +17,7 @@ function ServicesSection() {
             image={design}
             title={"Software"}
             paragraph={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+              "Open to Software Positions, what can I say everything is SDE."
             }
           />
           <div className='mid-card'>
@@ -25,16 +25,14 @@ function ServicesSection() {
               image={intelligence}
               title={"Data"}
               paragraph={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+                "With more Data nowadays, specialized roles can't be ignored."
               }
             />
           </div>
           <ServiceCard
             image={gamedev}
             title={"Cloud"}
-            paragraph={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-            }
+            paragraph={"Without cloud,  there is no internet, so count me in."}
           />
         </div>
       </ServicesSectionStyled>

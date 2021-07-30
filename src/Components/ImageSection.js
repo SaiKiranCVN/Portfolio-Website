@@ -14,11 +14,10 @@ function ImageSection() {
           I am <span>Sai Kiran</span>
         </h4>
         <p className='paragraph'>
-          I am an aspiring{" "}
-          <b>
-            Data Engineer/Scientist, Software Development, and Cloud(Devops/SRE)
-          </b>{" "}
-          enthusiast actively fetching Full-time positions.
+          Being a good developer is not just obtaining the knowledge of one
+          domain, rather a fundational knowledge of all domains, with
+          concentraion in one
+          <b> T-shaped Skills</b>.
         </p>
         <div className='about-info'>
           <div className='info-title'>
